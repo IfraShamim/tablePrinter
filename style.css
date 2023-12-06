@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One', 'sans-serif';
+}
+
+html {
+    max-width: 120rem;
+    width: 100%;
+    overflow-x: hidden !important;
+    font-size: .9vw;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden !important;
+}
+header{
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(17, 17, 95);
+    text-align: center;
+    padding-top: 1.5rem;
+}
+header button{
+    width: 20%;
+    height: 4rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+section{
+    text-align: center;
+}
+#container1{
+    border: 0.3rem dashed black;
+    width: 60%;
+    height: 30rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+#container1 p{
+    margin-top: 2rem;
+    font-size: 1.9rem;
+}
+#input{
+    margin-top: 2rem;
+    padding-left: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 2.5rem;
+}
+#table-number{
+    margin-top: 1rem;
+    width: 30%;
+    height: 4rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+}
+#first-number{
+    margin-top: 1.5rem;
+    width: 20%;
+    height: 4rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    margin-right: 4rem;
+}
+#second-number{
+    margin-top: 1.5rem;
+    width: 20%;
+    height: 4rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+}
+#print{
+    width: 10%;
+    height: 4rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: rgb(17, 17, 95);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+#container2{
+    border: 0.3rem dashed black;
+    width: 60%;
+    height: max-content;
+    margin: auto;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+#output{
+    font-size: 1.5rem;
+}
+@media(max-width:519px){
+    header{
+        height: 25rem;
+        padding-top: 4.5rem;
+    }
+    header button{
+        width: 60%;
+        height: 15rem;
+        font-size: 9rem;
+    }
+    #container1{
+        width: 80%;
+        height: 60rem;
+        margin-top: 4rem;
+    }
+    #container1 p{
+        margin-top: 2.5rem;
+        font-size: 4.5rem;
+    }
+    #input{
+        margin-top: 4rem;
+        font-size: 5.5rem;
+    }
+    #table-number{
+        margin-top: 3.8rem;
+        width: 50%;
+        height: 9.5rem;
+        border-radius: 2rem;
+        padding-left: 1.5rem;
+        font-size: 4.4rem;
+    }
+    #first-number{
+        margin-top: 3.5rem;
+        width: 35%;
+        height: 9rem;
+        border-radius: 2rem;
+        padding-left: 1.5rem;
+        font-size: 4.4rem;
+        margin-right: 12rem;
+    }
+    #second-number{
+        margin-top: 3.5rem;
+        width: 35%;
+        height: 9rem;
+        border-radius: 2rem;
+        padding-left: 1.5rem;
+        font-size: 4.4rem;
+    }
+    #print{
+        width: 20%;
+        height: 9rem;
+        border-radius: 4rem;
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+    #container2{
+        width: 80%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    #output{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Printer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button>Table Printer</button>
+    </header>
+    <section>
+        <div id="container1">
+            <h4 id="input">Input Field :</h4>
+            <p>Which Table You Want To Print?</p>
+            <input required class="input" type="number" id="table-number" placeholder="Which Table">
+            <p>Enter Limitations</p>
+            <input required class="input" type="number" id="first-number" placeholder="From" value="1">
+            <input required class="input" type="number" id="second-number" placeholder="To" value="10">
+        </div>
+        <button id="print" onclick="tablePrinter()">Print</button>
+        <div id="container2">
+            <h4 id="input">Result :</h4>
+            <div id="output"></div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
